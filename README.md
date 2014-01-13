@@ -28,7 +28,7 @@ It can also be loaded like this, if you prefer:
 &lt;/script&gt;
 </pre>
 
-Then, for each link, or graphic, that you want a lightbox to appear when clicked on, you need to add the following call onclick:
+Then, for each link, or graphic, that you want a lightbox to appear when clicked on, you need to add the a call to a function called playVideo(), onclick:
 
 <pre>
 onclick="playVideo('sample_video.mp4','sample_image.jpg'); return false;"
