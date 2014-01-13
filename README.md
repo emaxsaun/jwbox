@@ -8,7 +8,7 @@ JW Box is a small JavaScript LightBox for the JW Player. Is is responsive, and w
 Implementation:
 ==========
 
-First, the file lightbox.js needs to be loaded in the page's <head>, like so:
+First, the file lightbox.js needs to be loaded in the page's &lt;head&gt;, like so:
 
 <pre>
 &lt;script type=&quot;text/javascript&quot; src=&quot;lightbox.js&quot;&gt;&lt;/script&gt;
