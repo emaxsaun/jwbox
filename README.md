@@ -44,7 +44,7 @@ Sample Implementation:
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;JW Lightbox Mobile&lt;/title&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;JW Box - A JW Player LightBox&lt;/title&gt;
 		&lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;http://www.jwplayer.com/wp-content/themes/jwplayer-104/favicon.ico&quot; /&gt;
 		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
 		&lt;script type=&quot;text/javascript&quot; src=&quot;jwbox.js&quot;&gt;&lt;/script&gt;
@@ -55,7 +55,7 @@ Sample Implementation:
 		&lt;/style&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;body onload=&quot;setupPlayer();&quot;&gt;
-		&lt;h3&gt;JW Lightbox Mobile&lt;/h3&gt;
+		&lt;h3&gt;JW Box - A JW Player LightBox&lt;/h3&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/i8oQD9zd-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/i8oQD9zd-kNspJqnJ.mp4','http://content.bitsontherun.com/thumbs/i8oQD9zd-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://www.longtailvideo.com/jw/upload/bunny.jpg&quot; onclick=&quot;playVideo('http://www.longtailvideo.com/jw/upload/bunny.mp4','http://www.longtailvideo.com/jw/upload/bunny.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/3XnJSIm4-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/3XnJSIm4-kNspJqnJ.mp4','http://content.bitsontherun.com/thumbs/3XnJSIm4-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
