@@ -3,15 +3,15 @@ JW Box - A JW Player LightBox
 
 JW Box is a small JavaScript LightBox for the JW Player. Is is responsive, and works in Flash and HTML5 environments.
 
-### [Demo](http://www.pluginsbyethan.com/github/lightbox.html)
+### [Demo](http://www.pluginsbyethan.com/github/jwbox.html)
 
 Implementation:
 ==========
 
-First, the file lightbox.js needs to be loaded in the page's &lt;head&gt;, like so:
+First, the file jwbox.js needs to be loaded in the page's &lt;head&gt;, like so:
 
 <pre>
-&lt;script type=&quot;text/javascript&quot; src=&quot;lightbox.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;jwbox.js&quot;&gt;&lt;/script&gt;
 </pre>
 
 Then, the LightBox needs to be loaded when the page loads, like so:
@@ -47,7 +47,7 @@ Sample Implementation:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;JW Lightbox Mobile&lt;/title&gt;
 		&lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;http://www.jwplayer.com/wp-content/themes/jwplayer-104/favicon.ico&quot; /&gt;
 		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
-		&lt;script type=&quot;text/javascript&quot; src=&quot;lightbox.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;jwbox.js&quot;&gt;&lt;/script&gt;
 		&lt;style type=&quot;text/css&quot;&gt;
 		body {
 			font-family: sans-serif;
