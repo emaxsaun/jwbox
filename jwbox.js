@@ -81,8 +81,8 @@ setupPlayer = function(){
 }
 playVideo = function(theFile,theImg){
 	jwplayer("thePlayer").setup({
-		file: "http://content.bitsontherun.com/videos/I8lldC6V-8ULb9uN9.mp4",
-		image: "http://content.bitsontherun.com/thumbs/I8lldC6V-480.jpg",
+		file: theFile,
+		image: theImg,
 		width: "100%",
 		height: "100%",
 		primary: "html5"
