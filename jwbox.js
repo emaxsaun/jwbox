@@ -1,4 +1,4 @@
-document.write("<script type=\"text/javascript\" src=\"http://p.jwpcdn.com/6/8/jwplayer.js\"></script>");
+document.write("<script type=\"text/javascript\" src=\"http://p.jwpcdn.com/6/9/jwplayer.js\"></script>");
 document.write("<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>");
 if (navigator.userAgent.match(/iPad/i) != null || navigator.userAgent.match(/iPhone/i) != null || navigator.userAgent.match(/android/i) != null){
 	window.addEventListener('orientationchange', function(){
@@ -79,15 +79,15 @@ setupPlayer = function(){
 		$("#theTxt").fadeOut();
 	}
 }
-playVideo = function(theFile,theImg){
+var thePrimary = "html5"
+playVideo = function(theFile,theImg,thePrimary){
 	jwplayer("thePlayer").setup({
 		file: theFile,
 		image: theImg,
 		width: "100%",
 		height: "100%",
-		primary: "html5"
+		primary: thePrimary
 	});
-	jwplayer("thePlayer").load({file:theFile,image:theImg});
 	if (navigator.userAgent.match(/iPad/i) != null || navigator.userAgent.match(/iPhone/i) != null || navigator.userAgent.match(/android/i) != null){
 	} else {
 		jwplayer().play();
