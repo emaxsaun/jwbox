@@ -36,6 +36,8 @@ onclick="playVideo('sample_video.mp4','sample_image.jpg'); return false;"
 
 You just need to put in the video you want to play, and the poster image you want to use. If you do not have a poster image, you don't need to list one. 
 
+Update - There is a 3rd, optional, argument now. You can specify Flash, as the 3rd argument, if you wish for the player to render in Flash mode instead of HTML5 mode. By default, HTML5 mode is used. The example below has been updated so the first item renders in Flash mode.
+
 That's it! 
 
 Sample Implementation:
@@ -56,7 +58,7 @@ Sample Implementation:
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;body onload=&quot;setupPlayer();&quot;&gt;
 		&lt;h3&gt;JW Box - A JW Player LightBox&lt;/h3&gt;
-		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/i8oQD9zd-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/i8oQD9zd-kNspJqnJ.mp4','http://content.bitsontherun.com/thumbs/i8oQD9zd-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/i8oQD9zd-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/i8oQD9zd-kNspJqnJ.mp4','http://content.bitsontherun.com/thumbs/i8oQD9zd-480.jpg','flash'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://www.longtailvideo.com/jw/upload/bunny.jpg&quot; onclick=&quot;playVideo('http://www.longtailvideo.com/jw/upload/bunny.mp4','http://www.longtailvideo.com/jw/upload/bunny.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/3XnJSIm4-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/3XnJSIm4-kNspJqnJ.mp4','http://content.bitsontherun.com/thumbs/3XnJSIm4-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/6O7cYVpH-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/6O7cYVpH-1ahmry41.mp4','http://content.bitsontherun.com/thumbs/6O7cYVpH-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
