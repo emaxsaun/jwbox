@@ -1,4 +1,4 @@
-document.write("<script type=\"text/javascript\" src=\"http://p.jwpcdn.com/6/9/jwplayer.js\"></script>");
+document.write("<script type=\"text/javascript\" src=\"http://p.jwpcdn.com/6/10/jwplayer.js\"></script>");
 document.write("<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>");
 if (navigator.userAgent.match(/iPad/i) != null || navigator.userAgent.match(/iPhone/i) != null || navigator.userAgent.match(/android/i) != null){
 	window.addEventListener('orientationchange', function(){
