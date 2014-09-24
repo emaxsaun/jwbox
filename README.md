@@ -1,7 +1,7 @@
 JW Box - A JW Player LightBox
 ==========
 
-JW Box is a small JavaScript LightBox for the JW Player. Is is responsive, and works in Flash and HTML5 environments.
+JW Box is a small JavaScript LightBox for the JW Player. It is responsive, and works in Flash and HTML5 environments.
 
 ### [Demo](http://www.pluginsbyethan.com/github/jwbox.html)
 
