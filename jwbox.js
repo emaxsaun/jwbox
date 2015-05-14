@@ -1,4 +1,3 @@
-/*-JW BOX-*/
 document.write("<script type=\"text/javascript\" src=\"http://p.jwpcdn.com/6/12/jwplayer.js\"></script>");
 document.write("<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>");
 document.write("<link rel=\"stylesheet\" href=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css\">");
@@ -44,8 +43,8 @@ fadePlayerIn = function(){
 	theTxt.style.marginTop = "1%";
 	theTxt.style.cursor = "pointer";
 	theTxt.style.zIndex = "9999999";
-	theTxt.style.left = "110px";
-	theTxt.style.top = "50px";
+	theTxt.style.left = "8%";
+	theTxt.style.top = "8%";
 }
 fadePlayerOut = function(){
 	document.getElementById('outerLayer').style.overflow = 'hidden';
