@@ -38,6 +38,8 @@ You just need to put in the video you want to play, and the poster image you wan
 
 Update - There is a 3rd, optional, argument now. You can specify Flash, as the 3rd argument, if you wish for the player to render in Flash mode instead of HTML5 mode. By default, HTML5 mode is used. The example below has been updated so the first item renders in Flash mode.
 
+2015 Update - There are options to be able to drag and resize the lightbox now. Supported in all desktop browsers other than IE.  If the 4th optional argument is set to drag, then the player will drag. If the 5th optional argument is set to resize, the player can be resized. The example below has been updated so the last item can be dragged and resized.
+
 That's it! 
 
 Sample Implementation:
@@ -62,7 +64,7 @@ Sample Implementation:
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://www.longtailvideo.com/jw/upload/bunny.jpg&quot; onclick=&quot;playVideo('http://www.longtailvideo.com/jw/upload/bunny.mp4','http://www.longtailvideo.com/jw/upload/bunny.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/3XnJSIm4-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/3XnJSIm4-kNspJqnJ.mp4','http://content.bitsontherun.com/thumbs/3XnJSIm4-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/6O7cYVpH-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/6O7cYVpH-1ahmry41.mp4','http://content.bitsontherun.com/thumbs/6O7cYVpH-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
-		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/zhiesZIW-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/zhiesZIW-52qL9xLP.mp4','http://content.bitsontherun.com/thumbs/zhiesZIW-480.jpg'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;a href=&quot;#&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;300&quot; border=&quot;0&quot; src=&quot;http://content.bitsontherun.com/thumbs/zhiesZIW-480.jpg&quot; onclick=&quot;playVideo('http://content.bitsontherun.com/videos/zhiesZIW-52qL9xLP.mp4','http://content.bitsontherun.com/thumbs/zhiesZIW-480.jpg','drag','resize'); return false;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		This is some content.&lt;br /&gt;
 		This is some content.&lt;br /&gt;
 		This is some content.
