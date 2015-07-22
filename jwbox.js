@@ -1,4 +1,8 @@
-document.write("<script type=\"text/javascript\" src=\"http://p.jwpcdn.com/6/12/jwplayer.js\"></script>");
+/*-JW BOX-*/
+/* This line loads JW7. If you want to load JW6, use http://p.jwpcdn.com/6/12/jwplayer.js, or your own self hosted copy. */
+document.write("<script type=\"text/javascript\" src=\"http://p.jwpcdn.com/player/v/7.0.0/jwplayer.js\"></script>");
+/* This is a JW7 Key. Requireed for JW7 to work. Please add your own key if you are going to be using this with JW7. Not needed for JW6. */
+document.write("<script>jwplayer.key='IF5khcPYvMy9zcwVoe6msTtSnj/aa5ZFlEIOsA==';</script>");
 document.write("<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>");
 document.write("<link rel=\"stylesheet\" href=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css\">");
 document.write("<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js\"></script>");
@@ -281,6 +285,7 @@ playVideo = function(theFile,theImg,thePrimary,canDrag,canResize){
 		if(isIEold() || isIE11){
 		} else {
 			jwplayer().onReady(function(){
+                /* This part is only needed for JW6, since getRenderingMode is deprecated for JW7. */
 				if(jwplayer().getRenderingMode() == "flash"){
 					$('#theBorder').draggable().on('drag', function(e){
 						var a = document.getElementById('theBorder').style.width;
@@ -317,6 +322,7 @@ playVideo = function(theFile,theImg,thePrimary,canDrag,canResize){
 		if(isIEold() || isIE11){
 		} else {
 			jwplayer().onReady(function(){
+                /* This part is only needed for JW6, since getRenderingMode is deprecated for JW7. */
 				if(jwplayer().getRenderingMode() == "flash"){
 					$("#theBorder").resizable().on('resize', function(e){
 						var a = document.getElementById('theBorder').style.width;
